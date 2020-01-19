@@ -1,0 +1,93 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/City_Context_Test.jsonld"
+    ],
+    "id": "urn:ngsi-ld:layer:municipios:33e9daee-1d52-409c-bf1e-14ca9f110728",
+    "type": "municipio",
+    "createdAt": "2019-05-03T13:29Z",
+    "name": {
+        "type": "Property",
+        "value": "Jardim de Angicos"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Jardim de Angicos"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "coordinates": [
+                [
+                    [
+                        [
+                            -35.9413362828,
+                            -5.6683847262
+                        ],
+                        [
+                            -35.9338814564,
+                            -5.7144807515
+                        ],
+                        [
+                            -35.9703029037,
+                            -5.7139127286
+                        ],
+                        [
+                            -36.0236576306,
+                            -5.6976181936
+                        ],
+                        [
+                            -36.0622048279,
+                            -5.6548931887
+                        ],
+                        [
+                            -36.0560834928,
+                            -5.6381539241
+                        ],
+                        [
+                            -35.992078919,
+                            -5.4633954652
+                        ],
+                        [
+                            -35.956558231,
+                            -5.5353568194
+                        ],
+                        [
+                            -35.910950832,
+                            -5.6292676487
+                        ],
+                        [
+                            -35.9233504149,
+                            -5.634541139
+                        ],
+                        [
+                            -35.9229596844,
+                            -5.6410845899
+                        ],
+                        [
+                            -35.9228050713,
+                            -5.6472126777
+                        ],
+                        [
+                            -35.927065203,
+                            -5.6514633961
+                        ],
+                        [
+                            -35.9324534369,
+                            -5.6530325122
+                        ],
+                        [
+                            -35.9413362828,
+                            -5.6683847262
+                        ]
+                    ]
+                ]
+            ],
+            "type": "MultiPolygon"
+        }
+    },
+    "id_geodata_br": {
+        "type": "Property",
+        "value": 2405504
+    }
+}

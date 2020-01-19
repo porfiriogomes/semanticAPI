@@ -1,0 +1,69 @@
+{
+        "@context": [
+            "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+            "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/City_Context_Test.jsonld"
+        ],
+        "id": "urn:ngsi-ld:quadra:5bc5d5a0498b410b8034dbec",
+        "type": "quadra",
+        "createdAt": "2019-04-10T16:38Z",
+        "n_quadra": {
+            "type": "Property",
+            "value": 127
+        },
+        "name": {
+            "type": "Property",
+            "value": 40290127
+        },
+        "description": {
+            "type": "Property",
+            "value": 40290127
+        },
+        "location": {
+            "type": "GeoProperty",
+            "value": {
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -35.240148379868,
+                                -5.831820668086
+                            ],
+                            [
+                                -35.240154538675,
+                                -5.83181455997
+                            ],
+                            [
+                                -35.240491454786,
+                                -5.831513837918
+                            ],
+                            [
+                                -35.240345180309,
+                                -5.831353822737
+                            ],
+                            [
+                                -35.239987819594,
+                                -5.831527348449
+                            ],
+                            [
+                                -35.239944900526,
+                                -5.831548112186
+                            ],
+                            [
+                                -35.240015182701,
+                                -5.831651326211
+                            ],
+                            [
+                                -35.240148379868,
+                                -5.831820668086
+                            ]
+                        ]
+                    ]
+                ],
+                "type": "MultiPolygon"
+            }
+        },
+        "isPartOf": {
+            "type": "Relationship",
+            "id": "urn:ngsi-ld:bairro:5bc51332528f7f1eeccb7724"
+        }
+    }
